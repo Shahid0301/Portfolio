@@ -257,6 +257,7 @@ transition: all 0.3s ease;
 }
 h3.hello{
     font-size: 28px;
+    display: flex;
     margin: 15px 0;
 }
 h3.hello span{
@@ -413,13 +414,15 @@ h3.my-profession{
     font-size: 16px;
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
+   
     
 }
 .about .about-contentt .personal-info .info-item p span{
     font-weight: 400;
     color: var(--text-black-700);
     margin-left: 4px;
-    display: inline-block;
+    
+    
 }
 .about .about-contentt .personal-info .buttons{
     margin-top: 30px;
@@ -471,10 +474,10 @@ h3.my-profession{
     font-weight: 400;
     line-height: 40px;
 }
-.about .about-contentt .education,
-.about .about-contentt .experience{
-    flex: 0 0 50%;
-    max-width: 50%;
+.about .about-contentt .education
+{
+    flex: 0 0 100%;
+    max-width: 100%;
     margin-top: 30px;
 }
 .about .about-contentt h3.title{
